@@ -1,20 +1,6 @@
 @import "tailwindcss";
 
 
-/* FIX 1: Reset layout so Vercel renders same as localhost */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-}
-
-
 /* 🔥 THEME MUST COME IMMEDIATELY AFTER IMPORT */
 @theme {
   --color-neon: #95e11f;
